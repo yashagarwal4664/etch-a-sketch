@@ -1,0 +1,104 @@
+.flex-container{
+    height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: lightblue;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    width: 60vw;
+    height: 60vw;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+
+.board
+{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    background-color: white;
+    box-shadow: transparent;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.board:hover{
+    cursor:crosshair;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 13px;
+margin-bottom: 13px;
+margin-top: 13px;
+margin-bottom: 13px;
+padding: 0.3em 1.2em;
+margin-right: 0.3em;
+border-radius: 2em;
+font-weight: 600;
+text-align: center;
+transition: all 0.2s;
+
+}
+button:hover{
+    cursor: pointer;
+}
+
+.blackbutton
+{
+    background-color: black;
+    color: white;
+}
+.blackbutton:hover
+{
+    background-color: white;
+    color: black;
+}
+.graybutton
+{
+    background-color: rgb(78, 76, 76);
+    color: rgb(0, 0, 0);
+}
+.graybutton:hover
+{
+    background-color: rgb(71, 58, 58);
+    color: rgb(255, 255, 255);
+}
+.randombutton {
+    background: linear-gradient(0.25turn, #f65cfc, #ebf8e1, #583cf6);
+  }
+  .randombutton:hover {
+    background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
+  }
+  .erasorbutton {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .erasorbutton:hover {
+    background-color: white;
+    color: rgb(255, 255, 255);
+  }
+  input {
+    width: 50px;
+  }
+  
+  .mode {
+    margin-bottom: 5px;
+  }
+  .error {
+    display: none;
+  }
+  h1
+{
+    font-size: 40px;
+}
